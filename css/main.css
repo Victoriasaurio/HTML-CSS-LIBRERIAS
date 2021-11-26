@@ -1,0 +1,183 @@
+.container {
+    max-width: 1200px;
+    margin: auto;
+    border: 1px red solid;
+}
+.cabecera {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.op {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+}
+.opline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.line {
+    width: 45px;
+    height: 2px;
+    background-color: var(--pinkGimnasio);
+}
+.op a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #333;
+    font-weight: 400;
+}
+.services {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.title h1 {
+    text-transform: uppercase;
+    font-weight: 900;
+    margin: 50px 0;
+}
+.containerservices {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.cardservices {
+    width: 250px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.linecuadrado {
+    border: 1px solid var(--grayGimnasio);
+    border-radius: 5px;
+    width: 55px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.linecuadrado i {
+    color: var(--pinkGimnasio);
+}
+.cardservices h3 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    margin: 15px 0;
+}
+.cardservices p {
+    text-align: center;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    color: var(--greyGimnasio);
+}
+
+.gallery {
+    background-color: var(--grayBackground);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 35px 0;
+    margin: 60px 0;
+}
+.photos {
+    max-width: 1300px;
+}
+.ophotos {
+    max-width: 800px;
+    max-height: 500px;
+    display: flex;
+}
+.ophotos figure {
+    max-width: 400px;
+    max-height: 300px;
+}
+.ophotos figure a img {
+    width: 100%;
+    height: 100%;
+}
+
+.information {
+    max-width: 500px;
+    max-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 40px;
+    
+}
+.information h1 {
+    margin: 0;
+    font-size: 34px;
+}
+.together {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 10px;
+}
+.together h2 {
+    font-weight: 300;
+    font-size: 34px;
+    text-transform: uppercase;
+}
+.information p {
+    width: 280px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+    margin: 30px 0;
+}
+.btnjoin {
+    padding: 10px 40px;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 12px;
+    border-radius: 5px;
+    background-color: var(--pinkGimnasio);
+    color: white;
+}
+
+.linegray {
+    border: 1px solid var(--greyGimnasio);
+}
+.footerinfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+    margin: 40px 0;
+}
+.footerinfo h5 {
+    font-weight: 400;
+    font-size: 12px;
+}
+.social {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.circle {
+    border: 1px solid var(--greyGimnasio);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle i {
+    color: var(--pinkGimnasio);
+}

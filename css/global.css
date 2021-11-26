@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-size: 16px;
+    font-family: 'Outfit', sans-serif;
+    line-height: 24px;
+    color: #333;
+}
+:root {
+    --pinkGimnasio: #D93D59;
+    --grayBackground: #F2F2F2;
+    --grayGimnasio: #CACBCA;
+    --greyGimnasio: #909091;
+}
